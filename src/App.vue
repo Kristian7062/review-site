@@ -1,26 +1,34 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>test</h1>
+  <Menu></Menu>
+  <router-view/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Menu from './components/Menu.vue'
+// import Body from './components/Body.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Menu
   }
+  // data() {
+  //   return {
+  //     currentPage: 'explore'
+  //   }
+  // },
+  // methods: {
+  //   changePage(page) {
+  //     this.currentPage = page
+  //   }
+  // }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin: 0;
+  padding: 0;
 }
 </style>
