@@ -1,6 +1,6 @@
 <template>
     <nav class="menu">
-    <img src="@/assets/logo.png" alt="Logo" />
+        <RouterLink to="/"> <img class="logo" src="@/assets/logo.svg" alt="Logo"> </RouterLink>
 
         <ul class="links">
             <li><RouterLink to="/">Explore</RouterLink></li>
@@ -8,13 +8,12 @@
             <li><RouterLink to="/news">News</RouterLink></li>
 
         </ul>
-        <a href="#">profile</a>
-
+        
+        <RouterLink to="/"> <img src="@/assets/user.svg" alt="Profile picture" class="profile" /> </RouterLink>
     </nav>
 </template>
 
 <script>
-// import img from "./assets/Logo.png"
 export default {
     name: 'Menu'
 }
@@ -23,25 +22,22 @@ export default {
 
 <style scoped>
     .menu {
-        background-color: aqua;
-        position: absolute;
-        top: 0;
-        left: 0;
+        background-color: var(--color-primary);
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         overflow: hidden;
         height: 42px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: var(--border-radious);
+        border-bottom-right-radius: var(--border-radious);
     }
     .menu ul{
         display: flex;
         list-style: none;
         margin: 0;
         padding: 0;
-        background-color: bisque;
+        background-color: var(--color-primary);
         overflow: hidden;
     }
 
@@ -54,7 +50,7 @@ export default {
     }
     .menu a {
         display: block;
-        color: white;
+        color: var(--text-light);
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -67,6 +63,10 @@ export default {
     nav a:hover {
         background-color: #ddd;
         color:black;
+    }
+
+    .logo {
+        padding: 0 20px 7px 20px;
     }
 
     

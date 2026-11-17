@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "title": "Age Of Empires 2",
+        "date": "16-11-2026",
+        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
+        "image": "/images/AgeOfEmpires2.jpg",
+        "imageExplanation": "https://www.merge-json-files.com/blog/how-to-add-an-image-in-json"
+    },
+    {
+        "id": 2,
+        "title": "Mount & Blade 2 Bannerlord",
+        "date": "15-11-2026",
+        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
+        "image": "/images/Bannerlord2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Sekiro Shadows Die Twice",
+        "date": "14-11-2026",
+        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
+        "image": "/images/Sekiro.jpg"
+    },
+     {
+        "id": 4,
+        "title": "Age Of Empires 2",
+        "date": "16-11-2026",
+        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
+        "image": "/images/AgeOfEmpires2.jpg",
+        "imageExplanation": "https://www.merge-json-files.com/blog/how-to-add-an-image-in-json"
+    },
+    {
+        "id": 5,
+        "title": "Mount & Blade 2 Bannerlord",
+        "date": "15-11-2026",
+        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
+        "image": "/images/Bannerlord2.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Sekiro Shadows Die Twice",
+        "date": "14-11-2026",
+        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
+        "image": "/images/Sekiro.jpg"
+    }
+]
