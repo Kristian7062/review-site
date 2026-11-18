@@ -20,7 +20,7 @@
         border: var(--border);
         border-radius: var(--border-radious);
         overflow: hidden;
-        width: 20vw;
+        width: 100%;
         color: var(--text-light);
         margin: 1vw;
     }

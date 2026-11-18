@@ -6,7 +6,7 @@
 <script>
 
 //move the menu import inside main.js if youre gonna reuse it
-import Menu from './components/Menu.vue'
+import Menu from './components/global/Menu.vue'
 // import Body from './components/Body.vue'
 
 export default {

@@ -60,9 +60,25 @@ export default {
         background-color: blueviolet;
     }
 
-    nav a:hover {
+    nav li:hover {
         background-color: #ddd;
         color:black;
+        box-shadow: 0px 0px 10px white;
+
+    }
+
+    nav a:hover{
+        color: black;
+    }
+
+
+    .profile:hover{
+        box-shadow: 0px 0px 10px white;
+    }
+
+    
+    .logo:hover{
+        box-shadow: 0px 0px 10px white;
     }
 
     .logo {
