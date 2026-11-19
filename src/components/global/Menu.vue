@@ -1,11 +1,32 @@
+<script setup>
+    import { ref, computed } from 'vue'
+    import { useRoute } from 'vue-router';
+
+    const page = useRoute()
+
+    const currentPath = ref(window.location.hash)
+
+    window.addEventListener('hashchange', () => {
+    currentPath.value = window.location.hash
+    console.log(currentView);
+    
+    })
+
+    const currentView = computed(() => {
+    return routes[currentPath.value.slice(1) || '/'] || NotFound
+    console.log(currentView);
+    
+    })
+</script>
+
 <template>
     <nav class="menu">
         <RouterLink to="/"> <img class="logo" src="@/assets/logo.svg" alt="Logo"> </RouterLink>
 
         <ul class="links">
-            <li><RouterLink to="/">Explore</RouterLink></li>
-            <li><RouterLink to="/reviews">Reviews</RouterLink></li>
-            <li><RouterLink to="/news">News</RouterLink></li>
+            <li><RouterLink to="/Explore" >Explore</RouterLink></li>
+            <li><RouterLink to="/Reviews">Reviews</RouterLink></li>
+            <li><RouterLink to="/News">News</RouterLink></li>
 
         </ul>
         
@@ -17,6 +38,7 @@
 export default {
     name: 'Menu'
 }
+
 
 </script>
 
@@ -55,23 +77,28 @@ export default {
         padding: 14px 16px;
         text-decoration: none;
     }
-    li.active {
-        color: black;
-        background-color: blueviolet;
-    }
 
     nav li:hover {
+
+    }
+    
+    a:hover,
+    a.router-link-active {
         background-color: #ddd;
         color:black;
         box-shadow: 0px 0px 10px white;
-
     }
 
     nav a:hover{
         color: black;
     }
 
-
+    .profile{
+        margin: 0;
+        padding: 0;
+        border-radius: 15px;
+        scale: 70%;
+    }
     .profile:hover{
         box-shadow: 0px 0px 10px white;
     }

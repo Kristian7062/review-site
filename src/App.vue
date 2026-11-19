@@ -1,6 +1,6 @@
 <template>
   <Menu class="menu"></Menu>
-  <router-view/>
+  <router-view class="mainContent" />
 </template>
 
 <script>
@@ -19,11 +19,11 @@ export default {
 
 <style>
 #app {
-  margin: 0;
-  padding: 0;
   padding-top: 2rem;
 }
-body{
+body {
+  margin: 0;
+  width: 100%;
   background-color: var(--color-bg);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -33,5 +33,6 @@ body{
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1000;
 }
 </style>

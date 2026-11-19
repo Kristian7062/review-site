@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router'
+import { createRouter, createWebHistory } from 'vue-router'
 
 //add new components you want to be able to access globaly here CHECK SPELLING COPY 4X
 import ArticleCard from './components/articles/ArticleCard.vue'
@@ -10,8 +10,27 @@ import ReviewCard from './components/articles/ReviewCard.vue'
 import NewsCard from './components/articles/NewsCard.vue'
 import HorizontalScrollArticles from './components/global/HorizontalScrollArticles.vue'
 import LatestNews from './components/explore/LatestNews.vue'
+import TagsSorter from './components/global/TagsSorter.vue'
+import BrowseTopic from './components/explore/BrowseTopic.vue'
+
 //importing css variables, should work globaly
 import './styles/variables.css'
+import News from './views/News.vue'
+import Explore from './views/Explore.vue'
+import Reviews from './views/Reviews.vue'
+
+const router = createRouter({
+    history: createWebHistory(),
+    routes: [
+        //makes default page go to Explore, / links still go to explore but dont get
+        //highlighted as active
+        { path: '/', redirect: '/Explore' },
+
+        { path: '/Explore', component: Explore },
+        { path: '/Reviews', component: Reviews },
+        { path: '/News', component: News },
+    ]
+});
 
 const app = createApp(App)
 //i think this lets you use components as tags? check spelling when adding new component 4x!!
@@ -23,4 +42,6 @@ app.component('Line', Line)
 app.component('NewsCard', NewsCard)
 app.component('HorizontalScrollArticles', HorizontalScrollArticles)
 app.component('LatestNews', LatestNews)
+app.component('TagsSorter', TagsSorter)
+app.component('BrowseTopic', BrowseTopic)
 app.use(router).mount('#app')

@@ -1,34 +1,33 @@
 <script setup>
 //.json's need to be passed in per component apparently
-import Line from '@/components/global/Line.vue';
 import articles from '@/articles/articles.json';
-import HorizontalScrollArticles from '@/components/global/HorizontalScrollArticles.vue';
-import LatestNews from '@/components/explore/LatestNews.vue';
+import BrowseTopic from '@/components/explore/BrowseTopic.vue';
 
 </script>
 
 <template>
-    <h1>Explore</h1>
+    <div class="explorePage">
 
-    <ExploreFeatured class="exploreFeatured" />
+        <ExploreFeatured class="exploreFeatured" />
 
-    <Line />
-    <LatestNews />
-    <Line />
+        <Line class="line" />
+        <LatestNews />
+        <Line class="line"/>
 
-    <!--passing in all articles, needs key specified -->
-    <div class="articleCard">
-        <ArticleCard v-for="article in articles" 
-        :key="article.id"
-        :article="article"
+        <!--passing in all articles, needs key specified -->
 
-        />
+        <BrowseTopic></BrowseTopic>
     </div>
 </template>
 
 <style>
+    .explorePage{
+        padding-top: 3rem;
+    }
     h1{
+        width: var(--pageWidth);
         color: var(--text-light);
+        margin: 0 auto;
     }
      .articleCard {
         display: grid;
@@ -36,13 +35,17 @@ import LatestNews from '@/components/explore/LatestNews.vue';
         justify-content: center;
         justify-items: center;
         margin: 0 auto;
-        width: 80%;
+        width: var(--pageWidth);
         gap: 3vw;
     }
 
      .exploreFeatured {
         margin: 0 auto;
-        width: 80%;
+        width: var(--pageWidth);
+     }
+
+     .line{
+        padding: 5rem;
      }
 
      /* *, *::before, *::after {

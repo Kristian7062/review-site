@@ -1,9 +1,4 @@
 <script setup>
-    const props = defineProps({
-        linePad: Number
-    })
-
-    let padLine = 2
 
 
 </script>
@@ -21,7 +16,6 @@
         width: 90%;
         height: 2px;
         margin: 0 auto;
-
     }
 
 </style>

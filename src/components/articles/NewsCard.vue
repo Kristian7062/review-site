@@ -1,8 +1,10 @@
 <script setup>
     const props = defineProps({
         article: Object,
-        type: String
+        type: Number
     })
+    
+    console.log(props.type)
 
     const typeOf = () => { return props.type ? props.type : 0 }
 
@@ -23,7 +25,7 @@
 <style>
 
     :root{
-        --width: 400px
+        --width: 400px;
     }
     .newsCard-Wrapper{
         position: relative;
@@ -31,7 +33,7 @@
         border-radius: var(--border-radious);
         overflow: hidden;
         display: flex;
-        height: 200px;
+        height: 250px;
         width: var(--width);
     }
 
@@ -42,7 +44,7 @@
         position: relative;
     }
 
-    /* ::after to make it overlay over the img i think and you need content: ""; to make pseudo 
+    /* ::after to add pseudo element on top of img, after needs content specified, can be empty
     and the wrapper needs position:relative because you need p:aboslute to overlay it  */
     .newsCard-img::after{
         content:"";
