@@ -21,7 +21,7 @@ function scrollEvent(event){
 
     //the humble horizontal stepped scrolling logic. On scroll transforms content based on 
     //contentWidth and checks if we hit the limits defined. reads deltaY from the @wheel event
-    //TODO make contentWidth calculate automatically
+    //TODO make contentWidth calculate automatically + arrow
     const maxScroll = 0
     const minScroll = -1200
     const contentWidth = 414
@@ -68,19 +68,27 @@ function scrollEvent(event){
                 :article="article" 
                 :type="0" class="newsCard"></NewsCard>
         </div>
-        <div class="scollOverlay"  ></div>
+        <div class="scollOverlay" >
+            <img src="@/assets/arrow.svg" alt="Navigation arrow">
+        </div>
     </div>
 </template>
 
 <style>
     .newsCards{
-        transition: 200ms;
+        /* transition: 700ms cubic-bezier(0.2, 0, 0, 1); */
+        /* transition: 700ms cubic-bezier(0.5, -1, 0.5, 2); */
+        
+        /* transition: 600ms cubic-bezier(0.2, 1, 0.5, 1.2); */
+        /* transition: 600ms cubic-bezier(0.2, 1, 0.5, 1.2); */
+
+
+        /* transition: 600ms cubic-bezier(0.1, 0, 0.1, 1); */
+        transition: 300ms cubic-bezier(0.3, 0, 0, 1);
         display: flex;
         flex-direction: row;
 
         transform: translateX( v-bind('scrollCounter + "px"'));
-
-        
     
         /* hide scrollbar, need all 3 to work in all browsers */
         scrollbar-width: none;
@@ -88,7 +96,7 @@ function scrollEvent(event){
         } ::-webkit-scrollbar {
             display: none;
         }
-
+    
     .newsCards > * {
         flex: 0 0 auto;     
     }
@@ -125,6 +133,12 @@ function scrollEvent(event){
         rgba(0, 0, 0, 0) 80%,
         rgba(0, 0, 0, 0.7) 100%
         );
+    }
+    .scollOverlay img{
+        position: absolute;
+        right: 30px;
+        height: 50%;
+        margin: 0 auto;
     }
 
 </style>

@@ -18,6 +18,7 @@ import './styles/variables.css'
 import News from './views/News.vue'
 import Explore from './views/Explore.vue'
 import Reviews from './views/Reviews.vue'
+import ReviewPage from './views/ReviewPage.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -26,9 +27,10 @@ const router = createRouter({
         //highlighted as active
         { path: '/', redirect: '/Explore' },
 
-        { path: '/Explore', component: Explore },
-        { path: '/Reviews', component: Reviews },
-        { path: '/News', component: News },
+        { path: '/Explore', name:'Explore', component: Explore },
+        { path: '/Reviews', name:'Reviews', component: Reviews },
+        { path: '/News', name:'News', component: News },
+        { path: '/ReviewPage', name:'ReviewPage', component: ReviewPage },
     ]
 });
 
@@ -44,4 +46,5 @@ app.component('HorizontalScrollArticles', HorizontalScrollArticles)
 app.component('LatestNews', LatestNews)
 app.component('TagsSorter', TagsSorter)
 app.component('BrowseTopic', BrowseTopic)
+app.component('ReviewPage', ReviewPage)
 app.use(router).mount('#app')

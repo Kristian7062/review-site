@@ -60,7 +60,6 @@ export default {
         margin: 0;
         padding: 0;
         background-color: var(--color-primary);
-        overflow: hidden;
     }
 
     .menu li.logo{
@@ -74,8 +73,12 @@ export default {
         display: block;
         color: var(--text-light);
         text-align: center;
-        padding: 14px 16px;
+        padding: 14px 25px;
         text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 500;
+
     }
 
     nav li:hover {
@@ -84,7 +87,11 @@ export default {
     
     a:hover,
     a.router-link-active {
-        background-color: #ddd;
+        background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(189, 189, 189, 0.7) 100%
+    );
         color:black;
         box-shadow: 0px 0px 10px white;
     }

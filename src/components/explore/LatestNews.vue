@@ -12,7 +12,5 @@ import articles from '@/articles/news.json'
 </template>
 
 <style scoped>
-    h2 {
-        color: var(--text-light);
-    }
+   
 </style>

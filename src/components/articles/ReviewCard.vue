@@ -4,21 +4,23 @@
         type: Number
     })
 
-    const typeOf = () => { return props.type ? props.type : 0 }
+    // const typeOf = () => { return props.type ? props.type : 0 }
 
 </script>
 
 <template>
     
     <div class="reviewCard-Wrapper">
-        <div class="revCard-img">
-            <img :src="article.image" alt="article.title">
-        </div>
-        <div class="revCard-text">
-            <h3>{{ article.title }}</h3>
-            <small>{{ article.date }}</small>
-            <p>{{ article.content }}</p>
-        </div>
+        <!-- <RouterLink :to="{ name: 'ReviewPage', params: { id:article.id } }"> -->
+            <div class="revCard-img">
+                <img :src="article.image" :alt="article.title">
+            </div>
+            <div class="revCard-text">
+                <h3>{{ article.title }}</h3>
+                <small>{{ article.date }}</small>
+                <p>{{ article.content }}</p>
+            </div>
+        <!-- </RouterLink> -->
     </div>
 
 

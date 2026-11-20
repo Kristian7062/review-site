@@ -29,6 +29,13 @@ import BrowseTopic from '@/components/explore/BrowseTopic.vue';
         color: var(--text-light);
         margin: 0 auto;
     }
+
+    h2{
+        color: var(--text-light);
+        width: var(--pageWidth);
+        margin: 0 auto;
+        font-size: var(--h2Size);
+    }
      .articleCard {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -45,7 +52,7 @@ import BrowseTopic from '@/components/explore/BrowseTopic.vue';
      }
 
      .line{
-        padding: 5rem;
+        padding: 3rem;
      }
 
      /* *, *::before, *::after {
