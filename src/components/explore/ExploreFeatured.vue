@@ -1,6 +1,5 @@
 <script setup>
-import articles from '@/articles/articles.json'
-import LatestNews from './LatestNews.vue'
+import articles from '@/articles/reviews.json'
 
 const featuredReview = 0
 

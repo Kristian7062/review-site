@@ -8,6 +8,7 @@
 
     const typeOf = () => { return props.type ? props.type : 0 }
 
+    
 </script>
 
 <template>
@@ -17,7 +18,7 @@
         </div>
         <div class="newsCard-text">
             <h3>{{ article.title }}</h3>
-            <small>{{ article.date }}</small>
+            <small>{{ article.id }}</small>
         </div>
     </div>
 </template>

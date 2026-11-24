@@ -1,24 +1,26 @@
 <script setup>
-    import { useRoute } from 'vue-router'
+    import { useRoute, RouterLink } from 'vue-router'
+    import article from '../articles/reviews.json'
 
-    const props = defineProps({
-        article: Object
-    })
 
     const route = useRoute()
-    const id = parseInt(route.params.id)
+    const id = Number(route.params.id)
+    const currentArticle = article[route.params.id]
+    
 
 </script>
 
 <template>
-    <h1>{{ article.title }}</h1>
+    <h1>{{ currentArticle.title }}</h1>
+    <p>{{ currentArticle.date }}</p>
     <h1>Hello</h1>
 
 </template>
 
 <style scoped>
-h1{
-    padding: 5rem;
-}
+    h1{
+        padding: 5rem;
+        color: white;
+    }
 
 </style>

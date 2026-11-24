@@ -15,6 +15,7 @@ import BrowseTopic from './components/explore/BrowseTopic.vue'
 
 //importing css variables, should work globaly
 import './styles/variables.css'
+import './styles/global.css'
 import News from './views/News.vue'
 import Explore from './views/Explore.vue'
 import Reviews from './views/Reviews.vue'
@@ -27,12 +28,13 @@ const router = createRouter({
         //highlighted as active
         { path: '/', redirect: '/Explore' },
 
-        { path: '/Explore', name:'Explore', component: Explore },
-        { path: '/Reviews', name:'Reviews', component: Reviews },
-        { path: '/News', name:'News', component: News },
-        { path: '/ReviewPage', name:'ReviewPage', component: ReviewPage },
+        { path: '/Explore', name: 'Explore', component: Explore },
+        { path: '/Reviews', name: 'Reviews', component: Reviews },
+        { path: '/News', name: 'News', component: News },
+        {   path: '/ReviewPage/:id', name:'ReviewPage', component: ReviewPage }
     ]
 });
+
 
 const app = createApp(App)
 //i think this lets you use components as tags? check spelling when adding new component 4x!!
@@ -46,5 +48,4 @@ app.component('HorizontalScrollArticles', HorizontalScrollArticles)
 app.component('LatestNews', LatestNews)
 app.component('TagsSorter', TagsSorter)
 app.component('BrowseTopic', BrowseTopic)
-app.component('ReviewPage', ReviewPage)
 app.use(router).mount('#app')

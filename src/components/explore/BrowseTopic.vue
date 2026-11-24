@@ -1,5 +1,5 @@
 <script setup>
-import articles from '@/articles/articles.json';
+import articles from '@/articles/reviews.json';
 import TagsSorter from '../global/TagsSorter.vue';
 import {ref, computed} from 'vue'
 

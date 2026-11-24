@@ -11,7 +11,7 @@
 <template>
     
     <div class="reviewCard-Wrapper">
-        <!-- <RouterLink :to="{ name: 'ReviewPage', params: { id:article.id } }"> -->
+        <RouterLink :to="{ name: 'ReviewPage', params: { id:article.id } }">
             <div class="revCard-img">
                 <img :src="article.image" :alt="article.title">
             </div>
@@ -20,7 +20,7 @@
                 <small>{{ article.date }}</small>
                 <p>{{ article.content }}</p>
             </div>
-        <!-- </RouterLink> -->
+        </RouterLink>
     </div>
 
 

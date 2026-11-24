@@ -16,23 +16,3 @@ export default {
   }
 }
 </script>
-
-<style>
-#app {
-  padding-top: 2rem;
-}
-body {
-  margin: 0;
-  width: 100%;
-  background-color: var(--color-bg);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.menu{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-}
-</style>

@@ -1,6 +1,5 @@
 <script setup>
-//.json's need to be passed in per component apparently
-import articles from '@/articles/articles.json';
+import articles from '@/articles/reviews.json';
 import BrowseTopic from '@/components/explore/BrowseTopic.vue';
 
 </script>

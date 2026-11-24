@@ -1,324 +1,50 @@
 [
     {
-        "id": 1,
-        "title": "Age of Empires II: Definitive Edition",
-        "date": "14-11-2026",
+        "id": 0,
+        "title": "Age Of Empires 2",
+        "date": "16-11-2026",
         "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
         "image": "/images/AgeOfEmpires2.jpg",
-        "tags": [0, 1]
+        "tags": [0, 1]  
     },
     {
-        "id": 2,
-        "title": "Mount & Blade II: Bannerlord",
+        "id": 1,
+        "title": "Mount & Blade 2 Bannerlord",
         "date": "15-11-2026",
         "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
         "image": "/images/Bannerlord2.jpg",
         "tags": [0, 1, 2, 3]
     },
     {
-        "id": 3,
-        "title": "Sekiro: Shadows Die Twice",
-        "date": "16-11-2026",
+         "id": 2,
+        "title": "Sekiro Shadows Die Twice",
+        "date": "14-11-2026",
         "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
         "image": "/images/Sekiro.jpg",
         "tags": [0, 1, 2, 3]
     },
+     {
+        "id": 3,
+        "title": "Age Of Empires 2",
+        "date": "16-11-2026",
+        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
+        "image": "/images/AgeOfEmpires2.jpg",
+        "tags": [0, 1]
+    },
     {
         "id": 4,
-        "title": "The Legend of Zelda: Tears of the Kingdom",
-        "date": "17-11-2026",
+        "title": "Mount & Blade 2 Bannerlord",
+        "date": "15-11-2026",
         "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/TearsOfTheKingdom.jpg",
-        "tags": [0, 4]
+        "image": "/images/Bannerlord2.jpg",
+        "tags": [0, 1, 2, 3]
     },
     {
         "id": 5,
-        "title": "God of War Ragnarök",
-        "date": "18-11-2026",
+        "title": "Sekiro Shadows Die Twice",
+        "date": "14-11-2026",
         "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/GodOfWarRagnarok.jpg",
-        "tags": [0, 1, 2]
-    },
-    {
-        "id": 6,
-        "title": "Halo Infinite",
-        "date": "19-11-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/HaloInfinite.jpg",
-        "tags": [0, 1, 3]
-    },
-    {
-        "id": 7,
-        "title": "Red Dead Redemption 2",
-        "date": "20-11-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/RDR2.jpg",
+        "image": "/images/Sekiro.jpg",
         "tags": [0, 1, 2, 3]
-    },
-    {
-        "id": 8,
-        "title": "Animal Crossing: New Horizons",
-        "date": "21-11-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/AnimalCrossing.jpg",
-        "tags": [0, 4]
-    },
-    {
-        "id": 9,
-        "title": "Genshin Impact",
-        "date": "22-11-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/GenshinImpact.jpg",
-        "tags": [0, 1, 2, 3, 5]
-    },
-    {
-        "id": 10,
-        "title": "Minecraft",
-        "date": "23-11-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/Minecraft.jpg",
-        "tags": [0, 1, 2, 3, 4, 5]
-    },
-    {
-        "id": 11,
-        "title": "The Witcher 3: Wild Hunt",
-        "date": "24-11-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/Witcher3.jpg",
-        "tags": [0, 1, 2, 3, 4]
-    },
-    {
-        "id": 12,
-        "title": "Forza Horizon 5",
-        "date": "25-11-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/ForzaHorizon5.jpg",
-        "tags": [0, 1, 3]
-    },
-    {
-        "id": 13,
-        "title": "Spider-Man 2",
-        "date": "26-11-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/SpiderMan2.jpg",
-        "tags": [0, 2]
-    },
-    {
-        "id": 14,
-        "title": "Super Mario Odyssey",
-        "date": "27-11-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/MarioOdyssey.jpg",
-        "tags": [0, 4]
-    },
-    {
-        "id": 15,
-        "title": "Call of Duty: Modern Warfare III",
-        "date": "28-11-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/ModernWarfare3.jpg",
-        "tags": [0, 1, 2, 3]
-    },
-    {
-        "id": 16,
-        "title": "Stardew Valley",
-        "date": "29-11-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/StardewValley.jpg",
-        "tags": [0, 1, 2, 3, 4, 5]
-    },
-    {
-        "id": 17,
-        "title": "Elden Ring",
-        "date": "30-11-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/EldenRing.jpg",
-        "tags": [0, 1, 2, 3]
-    },
-    {
-        "id": 18,
-        "title": "Pokémon Scarlet and Violet",
-        "date": "01-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/PokemonScarletViolet.jpg",
-        "tags": [0, 4]
-    },
-    {
-        "id": 19,
-        "title": "PUBG Mobile",
-        "date": "02-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/PUBGMobile.jpg",
-        "tags": [0, 5]
-    },
-    {
-        "id": 20,
-        "title": "Baldur's Gate 3",
-        "date": "03-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/BaldursGate3.jpg",
-        "tags": [0, 1, 2, 3]
-    },
-    [
-    {
-        "id": 21,
-        "title": "Cyberpunk 2077",
-        "date": "04-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/Cyberpunk2077.jpg",
-        "tags": [0, 1, 2, 3]
-    },
-    {
-        "id": 22,
-        "title": "Ghost of Tsushima",
-        "date": "05-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/GhostOfTsushima.jpg",
-        "tags": [0, 1, 2]
-    },
-    {
-        "id": 23,
-        "title": "Sea of Thieves",
-        "date": "06-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/SeaOfThieves.jpg",
-        "tags": [0, 1, 3, 2]
-    },
-    {
-        "id": 24,
-        "title": "Splatoon 3",
-        "date": "07-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/Splatoon3.jpg",
-        "tags": [0, 4]
-    },
-    {
-        "id": 25,
-        "title": "Diablo IV",
-        "date": "08-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/Diablo4.jpg",
-        "tags": [0, 1, 2, 3]
-    },
-    {
-        "id": 26,
-        "title": "Final Fantasy XVI",
-        "date": "09-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/FinalFantasy16.jpg",
-        "tags": [0, 2, 1]
-    },
-    {
-        "id": 27,
-        "title": "Starfield",
-        "date": "10-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/Starfield.jpg",
-        "tags": [0, 1, 3]
-    },
-    {
-        "id": 28,
-        "title": "Metroid Dread",
-        "date": "11-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/MetroidDread.jpg",
-        "tags": [0, 4]
-    },
-    {
-        "id": 29,
-        "title": "Resident Evil 4",
-        "date": "12-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/ResidentEvil4.jpg",
-        "tags": [0, 1, 2, 3, 4]
-    },
-    {
-        "id": 30,
-        "title": "Fortnite",
-        "date": "13-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/Fortnite.jpg",
-        "tags": [0, 1, 2, 3, 4, 5]
-    },
-    {
-        "id": 31,
-        "title": "Assassin's Creed Mirage",
-        "date": "14-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/ACMirrage.jpg",
-        "tags": [0, 1, 2, 3]
-    },
-    {
-        "id": 32,
-        "title": "Hollow Knight",
-        "date": "15-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/HollowKnight.jpg",
-        "tags": [0, 1, 4]
-    },
-    {
-        "id": 33,
-        "title": "Gran Turismo 7",
-        "date": "16-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/GranTurismo7.jpg",
-        "tags": [0, 2]
-    },
-    {
-        "id": 34,
-        "title": "Gears 5",
-        "date": "17-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/Gears5.jpg",
-        "tags": [0, 1, 3]
-    },
-    {
-        "id": 35,
-        "title": "Kirby and the Forgotten Land",
-        "date": "18-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/KirbyForgottenLand.jpg",
-        "tags": [0, 4]
-    },
-    {
-        "id": 36,
-        "title": "Clash of Clans",
-        "date": "19-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/ClashOfClans.jpg",
-        "tags": [0, 5]
-    },
-    {
-        "id": 37,
-        "title": "Death Stranding",
-        "date": "20-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/DeathStranding.jpg",
-        "tags": [0, 1, 2]
-    },
-    {
-        "id": 38,
-        "title": "Monster Hunter Rise",
-        "date": "21-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/MonsterHunterRise.jpg",
-        "tags": [0, 1, 4, 2, 3]
-    },
-    {
-        "id": 39,
-        "title": "Apex Legends",
-        "date": "22-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/ApexLegends.jpg",
-        "tags": [0, 1, 2, 3, 4]
-    },
-    {
-        "id": 40,
-        "title": "Candy Crush Saga",
-        "date": "23-12-2026",
-        "content": "Occaecat laboris consequat quis nostrud in nostrud anim quis.",
-        "image": "/images/CandyCrush.jpg",
-        "tags": [0, 5]
     }
-]
 ]
