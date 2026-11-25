@@ -20,6 +20,8 @@ import News from './views/News.vue'
 import Explore from './views/Explore.vue'
 import Reviews from './views/Reviews.vue'
 import ReviewPage from './views/ReviewPage.vue'
+import Help from './views/Help.vue'
+import Profile from './views/Profile.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -31,7 +33,10 @@ const router = createRouter({
         { path: '/Explore', name: 'Explore', component: Explore },
         { path: '/Reviews', name: 'Reviews', component: Reviews },
         { path: '/News', name: 'News', component: News },
-        {   path: '/ReviewPage/:id', name:'ReviewPage', component: ReviewPage }
+        { path: '/Help', name:'Help', component: Help },
+        { path: '/Profile', name: 'Profile', component: Profile},
+        { path: '/ReviewPage/:id', name:'ReviewPage', component: ReviewPage }
+
     ]
 });
 

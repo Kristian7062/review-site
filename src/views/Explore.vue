@@ -26,7 +26,6 @@ import BrowseTopic from '@/components/explore/BrowseTopic.vue';
     h1{
         width: var(--pageWidth);
         color: var(--text-light);
-        margin: 0 auto;
     }
 
     h2{

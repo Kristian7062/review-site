@@ -27,10 +27,11 @@
             <li><RouterLink to="/Explore" >Explore</RouterLink></li>
             <li><RouterLink to="/Reviews">Reviews</RouterLink></li>
             <li><RouterLink to="/News">News</RouterLink></li>
+            <li><router-link to="/Help">Help</router-link></li>
 
         </ul>
         
-        <RouterLink to="/"> <img src="@/assets/user.svg" alt="Profile picture" class="profile" /> </RouterLink>
+        <RouterLink to="/Profile"> <img src="@/assets/user.svg" alt="Profile picture" class="profile" /> </RouterLink>
     </nav>
 </template>
 
