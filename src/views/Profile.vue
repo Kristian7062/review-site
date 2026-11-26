@@ -15,12 +15,15 @@
     <div class="settings">
       <h1>{{ userProfile.name }}</h1>
       <p>Admin? {{isAdminLocal}}</p>
-      <p>Change username</p>
+      <router-link to="/ChangeUsername"> Change username</router-link>
+      <router-link to="/ChangePassword"> Change password</router-link>
       <p>Change password</p>
 
       <button @click="toggleAdmin()">Make admin</button>
-      <button v-if="isAdminLocal">Add Review</button>
-    </div>
+      <router-link to="/Profile/AddReview">
+        <button v-if="isAdminLocal">Add Review</button>
+      </router-link>
+      </div>
   </div>
 </template>
 
@@ -29,6 +32,7 @@
     position: relative;
     width: 50%;
     margin: 0 auto;
+    color: var(--text-light);
   }
 
   .settings {

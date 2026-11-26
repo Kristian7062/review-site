@@ -38,38 +38,38 @@
     .reviewPageWrapper{
       margin: 0;
       padding: 0;
-
+      overflow: hidden;
     }
 
     .reviewPageWrapper img{
       position: absolute;
       width: 100%;
       transform: translateY(-100px);
-
     }
+    
 
     .reviewPageImgWrapper::after{
       content:"";
       position: absolute;
       inset: 0;
-      transform: translateY(-100px);
       width: 100%;
       height: 100%;
       background: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0) 0%,
-        var(--color-bg) 40%
+        rgba(15, 13, 12, 0) 0%,
+        var(--color-bg) 30%
       );
       z-index: 200;
 
     }
 
-
     .reviewPageContent{
       position: relative;
       z-index: 300;
-      width: 80%;
+      width: 50%;
       margin: 0 auto;
+      /* need it for \n to work */
+      white-space: pre-line;
     }
 
 </style>

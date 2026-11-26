@@ -18,3 +18,15 @@ body {
   width: 100%;
   z-index: 1000;
 }
+
+button {
+  color: black;
+  font-size: 1rem;
+  padding: 0.3rem 2rem;
+  background-color: var(--color-accent);
+  border-radius: var(--border-radious);
+}
+
+button:hover{
+  background-color: color-mix(in srgb, var(--color-accent) 100%, white 40%);
+}

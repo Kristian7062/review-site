@@ -22,6 +22,9 @@ import Reviews from './views/Reviews.vue'
 import ReviewPage from './views/ReviewPage.vue'
 import Help from './views/Help.vue'
 import Profile from './views/Profile.vue'
+import AddReview from './views/AddReview.vue'
+import ChangePassword from './views/ChangePassword.vue'
+import ChangeUsername from './views/ChangeUsername.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -35,6 +38,9 @@ const router = createRouter({
         { path: '/News', name: 'News', component: News },
         { path: '/Help', name:'Help', component: Help },
         { path: '/Profile', name: 'Profile', component: Profile},
+        { path: '/Profile/AddReview', name: 'AddReview', component: AddReview},
+        { path: '/ChangePassword', name: 'ChangePassword', component: ChangePassword},
+        { path: '/ChangeUsername', name: 'ChangeUsername', component: ChangeUsername},
         { path: '/ReviewPage/:id', name:'ReviewPage', component: ReviewPage }
 
     ]
